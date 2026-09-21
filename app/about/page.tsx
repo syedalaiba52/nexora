@@ -1,5 +1,6 @@
 import React from "react";
 import ButtonOne from "../components/ButtonOne";
+import CallCard from "../components/CallCard";
 
 function page() {
   return (
@@ -92,8 +93,8 @@ function page() {
             </div>
 
             {/* cards */}
-            <div className="flex flex-wrap items-center justify-center gap-5 text-gray-500">
-              <div className="bg-gray-50 hover:border hover:border-gray-300 border-transparent h-80 rounded-2xl w-60 ">
+            <div className="flex flex-wrap items-center justify-center gap-5 text-gray-500 mb-20">
+              <div className="bg-gray-50 hover:border hover:border-gray-300 border-transparent h-80 rounded-2xl w-60">
                 <div className="flex flex-col items-center justify-center h-full w-11/12 lg:w-2/3 mx-auto text-center">
                   <span className="my-3 text-3xl h-15 ps-1 w-15 bg-blue-200 rounded-2xl flex items-center justify-center">
                     🎯
@@ -153,6 +154,7 @@ function page() {
           </div>
         </div>
       </div>
+      <CallCard />
     </>
   );
 }
