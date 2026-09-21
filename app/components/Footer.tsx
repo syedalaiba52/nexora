@@ -141,7 +141,7 @@ function Footer() {
                 placeholder="contactus@gmail.com"
                 className="border border-gray-500 px-10 py-4 rounded-xl outline-0"
               />
-              <button className="bg-blue-800 py-4 px-5 rounded-lg">✈️</button>
+              <button className="bg-blue-800 py-4 px-5 rounded-lg cursor-pointer">✈️</button>
             </div>
           </div>
         </div>

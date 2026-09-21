@@ -29,10 +29,10 @@ function page() {
                 shared Slack channel. Cancel or switch plans anytime.
               </p>
               <div className="mb-10 w-full lg:w-3/4 text-gray-500">
-                <button className="font-semibold me-5 py-2 px-4 rounded-lg bg-blue-800 text-white border-transparent hover:border hover:border-blue-800 hover:bg-transparent hover:text-blue-800">
+                <button className="font-semibold me-5 py-2 px-4 rounded-lg bg-blue-800 text-white border-transparent hover:border hover:border-blue-800 hover:bg-transparent hover:text-blue-800 cursor-pointer">
                   Monthly <span className="font-medium">(Regular)</span>
                 </button>
-                <button className="font-semibold me-5 border py-2 px-4 rounded-lg text-black border-gray-400 hover:border-gray-300 hover:text-gray-600">
+                <button className="font-semibold me-5 border py-2 px-4 rounded-lg text-black border-gray-400 hover:border-gray-300 hover:text-gray-600 cursor-pointer">
                   Yearly <span className="text-blue-700">(Save 15%)</span>
                 </button>
               </div>
@@ -67,7 +67,7 @@ function page() {
                   </li>
                 </ul>
 
-                <button className="w-full border border-gray-400 font-semibold hover:bg-gray-50 hover:text-gray-600 rounded-md px-20 py-3 mt-4">
+                <button className="w-full border border-gray-400 font-semibold hover:bg-gray-50 hover:text-gray-600 rounded-md px-20 py-3 mt-4 cursor-pointer">
                   Get Started
                 </button>
               </div>
@@ -98,7 +98,7 @@ function page() {
                   </li>
                 </ul>
 
-                <button className="w-full border-transparent bg-blue-700 font-semibold text-white rounded-md px-20 py-3 mt-4">
+                <button className="w-full border-transparent bg-blue-700 font-semibold text-white rounded-md px-20 py-3 mt-4 cursor-pointer">
                   Get Started
                 </button>
               </div>
@@ -125,7 +125,7 @@ function page() {
                   <li className="list-none">✅ Priority support (4h)</li>
                 </ul>
 
-                <button className="w-full border border-gray-400 font-semibold hover:bg-gray-50 hover:text-gray-600 rounded-md px-20 py-3 mt-4">
+                <button className="w-full border border-gray-400 font-semibold hover:bg-gray-50 hover:text-gray-600 rounded-md px-20 py-3 mt-4 cursor-pointer">
                   Get Started
                 </button>
               </div>

@@ -29,16 +29,16 @@ function page() {
                 types.
               </p>
               <div className="mb-10 w-full lg:w-3/4 text-gray-500">
-                <button className="font-semibold me-5 py-2 px-4 rounded-lg bg-blue-800 text-white border-transparent hover:border hover:border-blue-800 hover:bg-transparent hover:text-blue-800">
+                <button className="font-semibold me-5 py-2 px-4 rounded-lg bg-blue-800 text-white border-transparent hover:border hover:border-blue-800 hover:bg-transparent hover:text-blue-800 cursor-pointer">
                   All Work
                 </button>
-                <button className="font-semibold me-5 border py-2 px-4 rounded-lg text-black border-gray-400 hover:border-gray-300 hover:text-gray-600">
+                <button className="font-semibold me-5 border py-2 px-4 rounded-lg text-black border-gray-400 hover:border-gray-300 hover:text-gray-600 cursor-pointer">
                   Product Design
                 </button>
-                <button className="font-semibold me-5 border py-2 px-4 rounded-lg text-black border-gray-400 hover:border-gray-300 hover:text-gray-600">
+                <button className="font-semibold me-5 border py-2 px-4 rounded-lg text-black border-gray-400 hover:border-gray-300 hover:text-gray-600 cursor-pointer">
                   Development
                 </button>
-                <button className="font-semibold me-5 border py-2 px-4 rounded-lg text-black border-gray-400 hover:border-gray-300 hover:text-gray-600">
+                <button className="font-semibold me-5 border py-2 px-4 rounded-lg text-black border-gray-400 hover:border-gray-300 hover:text-gray-600 cursor-pointer">
                   Branding
                 </button>
               </div>

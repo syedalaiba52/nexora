@@ -39,13 +39,6 @@ function Navbar() {
             </Link>
 
             <Link
-              href="/blog"
-              className="text-mauve-400 hover:text-blue-950 hover:bg-white p-3 rounded-lg cursor-pointer"
-            >
-              <li>Blog</li>
-            </Link>
-
-            <Link
               href="/pricing"
               className="text-mauve-400 hover:text-blue-950 hover:bg-white p-3 rounded-lg cursor-pointer"
             >
